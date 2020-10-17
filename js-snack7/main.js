@@ -4,12 +4,13 @@ var somma = 0;
 
 var media = 0;
 
-for (var i = 0; i <= numeri.length; i++) {
-    somma = somma + i;
-    console.log(somma);
+for (var i = 0; i < numeri.length; i++) {
+    somma = somma + numeri[i];
 
     media = somma / 10;
-
-    console.log(media);
-
 }
+
+
+
+console.log(somma);
+console.log(media);
